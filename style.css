@@ -1,0 +1,60 @@
+*{
+  margin: 0%;
+  color: white;
+  font-family: MyWebFont;
+  
+}
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('GothamSSm-Book_Web.woff2') format('woff2'),
+}
+.container{
+  position: static; 
+  /* top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;  */
+  /* margin: auto; 
+  max-width: 100%;
+  max-height: 100%; */
+  height: 100vh;
+  width: 100vw;
+  border: solid black 1px;
+  
+}
+.container__Img{
+  /* Center and scale the image nicely */
+  background-image: url(/Img/M3-Hero-LHD-US-D.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_navbar{
+  position: fixed; 
+  width: 100vw;
+  background-color: none;
+}
+.container__navbar--symbol{
+  padding-top: 18px;
+  padding-left: 46px;
+  max-width: 120px;
+  max-height: 120px;
+  width: 30%;
+}
+.container__navbar--button{
+  text-align: center;
+  float: left;
+  width: 90%;
+  text-align: center;
+  float: right;
+  width: 70%;
+  border-radius: 200px;
+  cursor: pointer;
+  overflow: hidden;
+
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  
+}
+
