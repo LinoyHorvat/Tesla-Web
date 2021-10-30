@@ -12,16 +12,14 @@
   letter-spacing: 2px;
 }
 
-.container{
-  /* border: 10px solid red; */
+.container1{
+  z-index: 0;
   position: static; 
   padding-top: 3vh;
   height: 100vh;
   width: 100vw;
   box-sizing: border-box;
-  scroll-behavior: smooth;
-  /* border: black solid; */
-  
+  scroll-behavior: smooth;  
 }
 .container__Img{
   /* Center and scale the image nicely */
@@ -49,7 +47,7 @@
   max-width: 130px;
   max-height: 120px;
   width: 30%;
-  filter: invert(100%);
+  /* filter: invert(100%); */
 
 }
 .container__navbar--mid{
@@ -125,10 +123,18 @@
 
 /* *****************second page************ */
 .container2{
+  position: static; 
+  padding-top: 3vh;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  scroll-behavior: smooth;  
+}
+/* .container2{
   z-index: 100;
   overflow: hidden;
 
-}
+} */
 .left_div{
   top: 0px;
   position: relative;
@@ -197,7 +203,17 @@
 
 
 /* ************Third Page********* */
+
+.container3{
+  position: static; 
+  padding-top: 3vh;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  scroll-behavior: smooth;  
+}
 .upper_container{
+  z-index: 50;
   margin: 0px;
   padding: 0px;
   align-content: stretch;
