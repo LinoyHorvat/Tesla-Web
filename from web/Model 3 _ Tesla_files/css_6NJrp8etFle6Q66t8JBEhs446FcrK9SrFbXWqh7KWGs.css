@@ -1,3 +1,0 @@
-.tcl-internet-explorer-banner{display:none !important}
-@media(min-width:900px) and (max-height:899px) and (orientation:landscape){.tcl-specifications .tcl-showcase__drawer-open-button.tcl-animate--revealed{opacity:1 !important;transform:none !important}.tcl-showcase__screen{height:auto;min-height:100vh}}
-@media(max-width:639px) and (orientation:portrait),(max-width:839px) and (orientation:landscape),(min-width:640px) and (max-width:1023px) and (orientation:portrait){.hero--default .tcl-asset,.hero--with-callouts:not(.hero--with-banner) .tcl-asset{height:var(--media-height) !important;max-height:var(--media-height) !important}.hero.hero--with-banner{--media-height:100vh !important}}
